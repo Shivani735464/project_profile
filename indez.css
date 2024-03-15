@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.backbox{
+    background-color: blue;
+    height: 450px;
+    width: 400px;
+    position: relative;
+    left: 270px;
+    top: 230px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 1px;           
+
+}
+#box2{
+    
+    background-color:white ;
+    height: 299px;
+    position: relative;
+    top: 152px;
+    width: 400px;
+    border-bottom-left-radius: 25px;                
+    border-bottom-right-radius: 25px;               
+}
+.circle{
+    background-image: url("instagram.jpg");
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+    border-radius: 1px;
+    border-style: solid;                       
+    border-color: blue;                      
+    border-radius: 50%;                        
+    position: absolute;
+    top: 270px;
+    left: 405px;
+}
+.instagram{
+    padding-left: 130px;
+    padding-top: 25px;
+}
+.swati{
+    font-size: 18px;
+    padding-left: 147px;
+    padding-top: 5px;
+}
+.coment{
+    background-image: url("coment.png");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: relative;
+    top: 23px;
+    left: 66px;
+    cursor: pointer;
+}
+.share{
+    background-image: url("share.png");             
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 37px;
+    left: 180px;
+    cursor: pointer;
+}
+.like{
+    background-image: url("like.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;            
+    position: relative;
+    bottom: 86px;
+    left: 60px;
+    cursor: pointer;              
+}
+#both{
+    padding-left: 110px;
+}
+.follow{
+    background-color: blue;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 60px;
+    left: 45px;
+     color: white;
+     font-size: 25px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.Message{
+    background-color: blue;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    bottom: 100px;
+    left: 205px;
+    border-radius: 20px;
+    color: white;                    
+    font-size: 25px;
+    display: flex;
+    justify-content: center;           
+    align-items: center;
+    cursor: pointer;
+}
+.follow2{
+    position: absolute;
+    left: 185px;
+    bottom: 40px;
+    font-weight: 900;
+}
+.followers{
+    font-weight: 900;                             
+    position: absolute;
+    left: 148px;
+    bottom: 20px;
+}
